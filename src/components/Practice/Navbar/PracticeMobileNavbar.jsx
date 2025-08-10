@@ -29,7 +29,7 @@ function PracticeMobileNavbar({isOpen,setIsMenuOpen}) {
           <a onClick={()=>handleScroll("testimonials")} className="relative text-blue-600 text-sm font-medium after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-blue-600 after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100 cursor-pointer">Testimonials</a>
         </li>
       </ul>
-      <button className="h-10 bg-blue-600 text-white rounded px-6  text-[12px] font-medium md:text-sm flex items-center justify-center hover:bg-blue-200 hover:text-blue-600 whitespace-nowrap">Contact Us</button>
+      <button className="h-10 bg-blue-600 text-white rounded px-6   font-medium text-sm flex items-center justify-center hover:bg-blue-200 hover:text-blue-600 whitespace-nowrap">Contact Us</button>
     </div>
     <div onClick={()=>setIsMenuOpen(false)} className='h-screen w-screen fixed top-0 -z-10'/>
    </div>
